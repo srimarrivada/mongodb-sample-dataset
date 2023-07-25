@@ -1,0 +1,41 @@
+1. Download MongoDB Sample dataset from
+https://github.com/srimarrivada/mongodb-sample-dataset
+
+2. Download MongoDB Command Line Database Tools from 
+https://www.mongodb.com/try/download/database-tools
+
+3. Go to location where MongoDB tools are downloaded
+
+4. Start importing sample dataset into MongoDB local instance using mongoimport utility
+
+mongoimport.exe --host localhost --port 27017 --db sample_analytics --collection listingsAndReviews --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_analytics\listingsAndReviews.json
+
+or
+
+mongoimport.exe --db sample_airbnb --collection listingsAndReviews --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_analytics\listingsAndReviews.json
+
+mongoimport.exe --db sample_analytics --collection accounts --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_analytics\accounts.json
+mongoimport.exe --db sample_analytics --collection customers --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_analytics\customers.json
+mongoimport.exe --db sample_analytics --collection transactions --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_analytics\transactions.json
+
+mongoimport.exe --db sample_geospatial --collection shipwrecks --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_geospatial\shipwrecks.json
+
+mongoimport.exe --db sample_mflix --collection comments --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_mflix\comments.json
+mongoimport.exe --db sample_mflix --collection movies --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_mflix\movies.json
+mongoimport.exe --db sample_mflix --collection sessions --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_mflix\sessions.json
+mongoimport.exe --db sample_mflix --collection theaters --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_mflix\theaters.json
+mongoimport.exe --db sample_mflix --collection users --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_mflix\users.json
+
+mongoimport.exe --db sample_supplies --collection sales --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_supplies\sales.json
+
+mongoimport.exe --db sample_training --collection companies --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\companies.json
+mongoimport.exe --db sample_training --collection grades --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\grades.json
+mongoimport.exe --db sample_training --collection inspections --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\inspections.json
+mongoimport.exe --db sample_training --collection posts --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\posts.json
+mongoimport.exe --db sample_training --collection routes --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\routes.json
+mongoimport.exe --db sample_training --collection stories --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\stories.json
+mongoimport.exe --db sample_training --collection trips --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\trips.json
+mongoimport.exe --db sample_training --collection tweets --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\tweets.json
+mongoimport.exe --db sample_training --collection zips --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_training\zips.json
+
+mongoimport.exe --db sample_weatherdata --collection data --file E:\Software\MongoDB\mongodb-sample-dataset-main\sample_weatherdata\data.json
